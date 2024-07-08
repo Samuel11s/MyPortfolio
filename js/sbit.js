@@ -16,6 +16,15 @@ $(document).ready( function (){
             
         }
     })
+    $("#Ps_btn").click(function(){
+      $("#Ps_content").slideToggle();
+    });
+    $("#Ps_btn1").click(function(){
+      $("#Ps_content1").slideToggle();
+    });
+    $("#Ps_btn2").click(function(){
+      $("#Ps_content2").slideToggle();
+    }); 
 })
 
 function opentab(evt, tabName) {
